@@ -1,2 +1,2 @@
 # social-cybersecurity
-Scripts, files, etc. for the Social Cybersecurity project at the Human-Computer Interaction Institute, CMU
+Scripts, files, etc. for the Social Cybersecurity project at the Human-Computer Interaction Institute, School of Computer Science, Carnegie Mellon University.
