@@ -1,0 +1,65 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {    
+    margin: 0;
+    padding: 20px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: rem-calc(16);
+    color: #333333;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: rem-calc(1200);
+}
+
+main, header, section, aside, footer {    
+    display: block;
+    margin: 0;
+    padding: rem-calc(20);
+    border: 1px solid #ffffff;
+    color: #333;
+}
+
+main {
+    background: #ffffff;
+}
+
+.header {
+    background: #ffffff;
+}
+
+.hero {
+    background: #ffffff;
+}
+
+.flex-container {
+    @media screen and (min-width: 640px){
+        display: flex;
+    }    
+}
+
+.content {
+    flex: 1;
+    background: #129a22;
+}
+
+.sidebar {
+    flex: 0 1 300px;
+    border: 1px solid #ffffff;
+    background: #673ab7;
+}
+
+.footer {
+    border: 1px solid #ffffff;
+    background: #616161;
+}
+
+
+
