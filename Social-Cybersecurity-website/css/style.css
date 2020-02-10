@@ -12,6 +12,7 @@ body {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-size: 1rem;
     color: #ffffff;
+    background: #0097a7;
 }
 
 .wrapper {
@@ -46,7 +47,8 @@ main {
 
 
 .hero {
-    background: #0097a7;
+    background: #909fff;
+    /*#0097a7;*/
     display: inline-block;
 }
 
@@ -62,7 +64,9 @@ main {
 
 .content {
     flex: 1;
-    background: #6aa84f;
+    background: #38761dff;
+    /*#558740;*/
+    /*#6aa84f;*/
 }
 
 .sidebar {
@@ -73,13 +77,21 @@ main {
 
 .footer {
     /*border: 1px solid #ffffff;*/
-    background: #616161;
+    background: #909fff;
+    /*#616161;*/
 }
 
 
 a:link, a:visited { 
-  color: #cfff3c;
+  color: #ffe3b5;
   text-decoration: underline;
-  cursor: auto;
+  /*cursor: pointer;*/
 }
 
+ul.pub {
+	margin: 0;
+}
+
+li.pub {
+	margin: .5em 0;
+}
